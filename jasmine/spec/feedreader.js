@@ -33,8 +33,8 @@ $(function() {
          */
          it('urls are defined', function() {
            for (feed in allFeeds) {
-             expect(allFeeds[i].url).toBeDefined();
-             expect(allFeeds[i].url.length).not.toBe(0);
+             expect(allFeeds[feed].url).toBeDefined();
+             expect(allFeeds[feed].url.length).not.toBe(0);
            }
          });
 
@@ -43,6 +43,12 @@ $(function() {
          * in the allFeeds object and ensures it has a name defined
          * and that the name is not empty.
          */
+         it('names are defined', function() {
+           for (feed in allFeeds) {
+             expect(allFeeds[feed].name).toBeDefined();
+             expect(allFeeds[feed].name.length).not.toBe(0);
+           }
+         });
     });
 
 
