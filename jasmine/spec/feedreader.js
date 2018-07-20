@@ -54,7 +54,7 @@ $(function() {
      * Test suite for menu
      */
 
-    describe('The menu', function() {
+    describe('The Menu', function() {
         const body = $('body');
         const menuIcon = $('.menu-icon-link');
 
