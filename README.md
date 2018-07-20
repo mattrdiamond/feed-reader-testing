@@ -15,6 +15,6 @@ I learned how to use Jasmine to write a number of tests against a pre-existing a
 3. At the bottom of the screen, you will find the Jasmine test results.
 
 
-### Reference
+## Reference
 
 [Jasmine documentation](http://jasmine.github.io/2.1/introduction.html)
