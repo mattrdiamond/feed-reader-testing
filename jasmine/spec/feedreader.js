@@ -46,9 +46,9 @@ $(function() {
     });
 
 
-    /*
-     * Test suite for menu
-     */
+   /*
+    * Test suite for menu
+    */
 
     describe('The Menu', function() {
         const body = $('body');
